@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from prediction import predict
+st.markdown(
+    '`Create by` Boussaid Syrine| \
+         `Code:` [GitHub](https://github.com/BoussaidSyrine/ML)')
 
 
 st.title('Classifying Iris Flowers')
@@ -31,6 +34,3 @@ if st.button("Predict type of Iris"):
 
 st.text('')
 st.text('')
-st.markdown(
-    '`Create by` Rania Charef | \
-         `Code:` [GitHub](https://github.com/ranyacharef/Face_Detection_ML)')
